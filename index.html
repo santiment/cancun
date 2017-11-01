@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="favicon2.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:100,300,400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/6f993f4769.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script async src=“https://www.googletagmanager.com/gtag/js?id=UA-84150740-2“></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+        gtag('config', 'UA-84150740-2');
+    </script>
+</head>
+<body>
+
+<div class="steps">
+    <h1>3 Easy Steps to Get 108 Free SAN</h1>
+    <div class="number one">1</div>
+    <p>Click here to enter your private key:</p>
+    <a class="button" href="#answers">Unlock my SAN</a>
+</div>
+
+<br />
+<br />
+<br />
+
+<div class="steps">
+    <div class="number two">2</div>
+    <p>Send six friends the link to this page and get 108 more SAN</p>
+</div>
+
+<div class="space"></div>
+
+<div>
+    <div class="number three">3</div>
+    <p>Really, you considered doing this?</p>
+</div>
+
+<div class="answers">
+    <a name="answers"></a>
+    <div class="yes">
+        <div class="answer">
+            <span class="answer-title">If Yes:</span>
+            Read this and stay safe in crypto:<br />
+            NEVER do Step 1 and/or 2 for any crypto project!
+        </div>
+    </div>
+    <div class="no">
+        <div class="answer">
+            <span class="answer-title">If No:</span>
+            Great, you've passed the test!
+        </div>
+    </div>
+</div>
+
+<div>
+    <p>Regardless of your answer, let’s meet in Cancun and talk.<br />
+        <span class="date">DevCon3, Nov 1-4, 2017</span></p>
+    <br />
+    <img src="logo.png" width="120px" height="auto" />
+</div>
+
+<div class="waves">
+
+
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script>
+    // Select all links with hashes
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+            // On-page links
+            if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                &&
+                location.hostname == this.hostname
+            ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000, function() {
+                        // Callback after animation
+                        // Must change focus!
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) { // Checking if the target was focused
+                            return false;
+                        } else {
+                            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                            $target.focus(); // Set focus again
+                        };
+                    });
+                }
+            }
+        });
+</script>
+
+
+
+</body>
+</html>

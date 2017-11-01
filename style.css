@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,300,400,700');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #262B33 url(fronds.gif) top center no-repeat;
+    background-size: 100% auto;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 16%;
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 36px;
+        margin-top: 30%;
+    }
+}
+
+p {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+a {
+    color: #262B33;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #F5F9FF;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: 'Nunito', sans serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 8px 36px;
+    text-transform: uppercase;
+}
+
+.number {
+    border-radius: 50%;
+    display: inline-block;
+    font-family: 'Nunito', sans serif;
+    padding: 10px 15px;
+}
+.one {
+    background-color: #309D81;
+}
+.two {
+    background-color: #316BAE;
+}
+.three {
+    background-color: #C82F3F;
+}
+
+.steps {
+    padding: 0 24px;
+}
+
+.space {
+    height: 1200px;
+}
+
+.answers {
+    margin: 0 auto;
+    overflow: auto;
+    width: 75%;
+}
+@media (max-width: 767px) {
+    .answers {
+        width: 100%;
+    }
+}
+.answer {
+    padding: 50px;
+}
+
+.answer-title {
+    display: block;
+    font-family: 'Nunito', sans serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.yes, .no {
+    float: left;
+    width: 50%;
+}
+.yes .answer {
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+@media (max-width: 480px) {
+    .answer {
+        padding: 20px;
+    }
+    .yes, .no {
+        width: 100%;
+        float: none;
+    }
+    .yes .answer {
+        border-right: none;
+    }
+}
+
+.waves {
+    background: url(waves.jpg) bottom center no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+    padding: 100px 0;
+}
+@media (max-width: 480px) {
+    .waves {
+        background-position: bottom;
+        padding: 70px 0;
+    }
+}
+
+.date {
+    font-size: 14px;
+}
