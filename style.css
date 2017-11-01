@@ -32,11 +32,12 @@ p {
 }
 
 a {
-    color: #262B33;
-    text-decoration: none;
+   color: #309D81;
 }
 
-.button {
+a.button {
+    color: #262B33;
+    text-decoration: none;
     background-color: #F5F9FF;
     border-radius: 4px;
     font-size: 18px;
@@ -82,6 +83,7 @@ a {
     }
 }
 .answer {
+    font-size: 18px;
     padding: 50px;
 }
 
@@ -100,7 +102,8 @@ a {
 }
 @media (max-width: 480px) {
     .answer {
-        padding: 20px;
+        font-size: 16px;
+        padding: 16px;
     }
     .yes, .no {
         width: 100%;
@@ -119,7 +122,8 @@ a {
 }
 @media (max-width: 480px) {
     .waves {
-        background-position: bottom;
+        background-size: 200%;
+        background-position: -250px 0;
         padding: 70px 0;
     }
 }
